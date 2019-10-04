@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">World Clock</string>
+    <string name="sydney_text">Sydney (UTC +10)</string>
+    <string name="tokyo_text">Tokyo (UTC +9)</string>
+    <string name="singapore_text">Singapore (UTC +8)</string>
+    <string name="delhi_text">New Delhi (UTC +5.5)</string>
+    <string name="dubai_text">Dubai (UTC +4)</string>
+    <string name="rome_text">Rome (UTC +3)</string>
+    <string name="paris_text">Paris (UTC +2)</string>
+    <string name="london_text">London (UTC +0)</string>
+    <string name="rio_text">Rio de Janeiro (UTC -3)</string>
+    <string name="nyc_text">New York City (UTC -5)</string>
+
+    <string name="hour12">24 Hour Time</string>
+    <string name="hour24">24 Hour Time Enabled</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/switchlayout"
+            layout="@layout/switchtime"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="30dp">
+
+                <include
+                    android:id="@+id/sydney"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/tokyo"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/singapore"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/newDelhi"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/dubai"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/rome"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/paris"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/london"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/rio"
+                    layout="@layout/chunk" />
+
+                <include
+                    android:id="@+id/newYorkCity"
+                    layout="@layout/chunk" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
